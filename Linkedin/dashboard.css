@@ -1,0 +1,504 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    background-color: #eeece5;
+}
+
+.nav {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+
+}
+
+.logo1 {
+    margin-left: 86px;
+    margin-top: 14.9px;
+    border-radius: 3px;
+}
+
+
+.searchbar {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+    display: flex;
+    z-index: 3;
+    height: 38px;
+    background: white;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin-top: -40.9px;
+    margin-left: 145px;
+    width: 310px;
+}
+
+.searchbar:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.searchbar-wrapper {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+}
+
+.searchbar-left {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.search-icon-wrapper {
+    margin: auto;
+}
+
+.search-icon {
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+}
+
+.searchbar-icon {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+}
+
+.searchbar-center {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.searchbar-input-spacer {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+    font-size: 16px;
+}
+
+.searchbar-input {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.searchbar-right {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row
+}
+
+.searchbar-clear-icon {
+    margin-right: 12px
+}
+
+.voice-search {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 2.8em;
+}
+
+.icons {
+    display: flex;
+    justify-self: center;
+    margin-top: -37.9px;
+    gap: 20%;
+    font-size: 20px;
+    color: #747474;
+    cursor: pointer;
+}
+
+.icons :hover {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+.pfp1 {
+    width: 29px;
+    height: 29px;
+    border-radius: 100px;
+    display: flex;
+    justify-self: center;
+    margin-top: -49.9px;
+    margin-left: 700px;
+    color: #747474;
+    font-size: 15px;
+}
+
+.pfp :hover {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+.icon01 :hover {
+    cursor: pointer;
+}
+
+.icon02 :hover {
+    cursor: pointer;
+}
+
+.pfp-box {
+    width: 15%;
+    height: 230px;
+    background-color: white;
+    margin-left: 6%;
+    margin-top: 28px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.img1 {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-left: 20px;
+    margin-top: -30px;
+    background-color: white;
+}
+
+.box2 {
+    width: 15%;
+    height: 82px;
+    background-color: white;
+    border-radius: 7px;
+    margin-left: 6%;
+    margin-top: 23px;
+    cursor: pointer;
+}
+
+.text3 {
+    font-size: 12px;
+    margin-top: -20px;
+    margin-left: 40px;
+    color: black;
+
+}
+
+.text3:hover {
+    color: rgb(121, 121, 196);
+    cursor: pointer;
+}
+
+.box3 {
+    width: 15%;
+    height: 78px;
+    background-color: white;
+    border-radius: 7px;
+    margin-left: 6%;
+    margin-top: 23px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.box4 {
+    width: 15%;
+    height: 137px;
+    background-color: white;
+    border-radius: 7px;
+    margin-left: 6%;
+    margin-top: 23px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.center-box {
+    width: 45%;
+    height: 120px;
+    background-color: white;
+    justify-self: center;
+    margin-top: -593px;
+    border-radius: 10px;
+}
+
+.box5 {
+    width: 22%;
+    height: 280px;
+    background-color: white;
+    margin-left: 77%;
+    margin-top: -2976px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.row-1 {
+    margin-left: -1900px;
+}
+
+.row-2 {
+    margin-left: -50px;
+}
+
+.row-3 {
+    margin-right: 70px;
+}
+
+.box6 {
+    width: 22%;
+    height: 350px;
+    background-color: white;
+    margin-left: 77%;
+    margin-top: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.follow1 {
+    width: 30%;
+    height: 31px;
+    border-radius: 35px;
+    border: 1px solid #747474;
+    margin-top: 60px;
+    cursor: pointer;
+    margin-left: -200px;
+}
+
+.follow2 {
+    width: 30%;
+    height: 31px;
+    border-radius: 35px;
+    border: 1px solid #747474;
+    margin-top: 60px;
+    cursor: pointer;
+    margin-left: -120px;
+}
+
+.follow3 {
+    width: 30%;
+    height: 31px;
+    border-radius: 35px;
+    border: 1px solid #747474;
+    margin-top: 60px;
+    cursor: pointer;
+    margin-left: -150px;
+}
+
+.post-1 {
+    width: 45%;
+    height: 730px;
+    background-color: white;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.pfp2 {
+    width: 29px;
+    height: 29px;
+    border-radius: 100px;
+    display: flex;
+    justify-self: center;
+    margin-top: 14.9px;
+    margin-left: -540px;
+    color: #747474;
+    font-size: 15px;
+}
+
+.lke {
+    margin-top: -34px;
+    margin-left: 120px;
+}
+
+.comment {
+    margin-top: -44px;
+    margin-left: 240px;
+}
+
+.repost {
+    margin-top: -44px;
+    margin-left: 380px;
+}
+
+.send {
+    margin-top: -47px;
+    margin-left: 520px;
+}
+
+.post-2 {
+    width: 45%;
+    height: 1020px;
+    background-color: white;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.main-footer {
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    margin-top: 2260px;
+    justify-content: center;
+}
+
+.search1 {
+    display: none;
+}
+
+@media screen and (max-width: 980px) {
+    .nav {
+        width: auto;
+    }
+
+    .searchbar {
+        display: none;
+
+    }
+
+    .pfp {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .details {
+        display: none;
+    }
+
+    .icons {
+        font-size: 13px;
+        margin-left: -55px;
+    }
+
+    .icon5 {
+        display: none;
+    }
+
+    .logo1 {
+        margin-left: 6px;
+    }
+
+    .pfp-box {
+        justify-self: center;
+        width: 85%;
+    }
+
+    .box2 {
+        justify-self: center;
+        width: 85%;
+    }
+
+    .box3 {
+        justify-self: center;
+        width: 85%;
+    }
+
+    .box4 {
+        justify-self: center;
+        width: 85%;
+    }
+
+    /* .row-2{
+    
+} */
+    .center-box {
+        justify-self: center;
+        width: 95%;
+        margin-top: 35px;
+        justify-content: center;
+        margin-left: 14%;
+        height: 80px;
+    }
+    input{
+        width: 50%;
+        margin-top: 70%;
+    }
+    .icons-3{
+        margin-left: -10px;
+        display: none;
+    }
+
+    .post-1 {
+        width: 120%;
+        height: 900px;
+        justify-self: center;
+        margin-left: 100px;
+    }
+
+    .post-2 {
+             width: 120%;
+        height: 1300px;
+        justify-self: center;
+        margin-left: 100px;
+    }
+
+    .row-3 {
+        display: none;
+    }
+    .line2{
+        width: 29%;
+        height: 20px;
+        display: none;
+    }
+    .pfp2{
+        width: 30px;
+          height: 30px;
+          margin-left: -10px;
+    }
+    .icons03{
+        margin-top: 55px;
+        margin-left: -40px;
+        width: 30px;
+        height: 30px;
+    
+    }
+    .send{
+        display: none;
+    }
+    .textt{
+        display: none;
+    }
+    .texxt{
+        font-size: 1px;
+    }
+    .main-footer{
+        width: 100%;
+        height: 35px;
+        margin-top: 100px;
+    }
+  
+
+}
